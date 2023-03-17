@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+nav{
+    border-bottom: 3px double black;
+    height: 6vh;
+}
+nav a{
+    padding: 5px;
+}
+#logo{
+    position: absolute;
+    left: 92%;
+}
+header{
+    height: 60vh;
+    position: relative;
+}
+main{
+    height: 34vh;
+    position: relative;
+}
+.titulo{
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    background: none;
+    color: rgb(0, 255, 0);
+}
+.subtitulo{
+    font-size: 36px;
+    position: absolute;
+    top: 70%;
+    left: 39%;
+    background: none;
+    color: rgb(0, 255, 0);
+}
+.icono{
+    width: 900px;
+    height: 500px;
+    margin-left: 22%;
+}
+#boton{
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: black;
+    position: absolute;
+    left: 47%;
+    top: 90%;
+}
+#boton:hover{
+    color: aqua;
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+}
+.imagenIndex{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+#textoIndex{
+    width: 15.5rem;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.6);
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+/* about */
+.divTodo{
+    position: relative;
+}
+.imgAbout{
+    display: inline-block;
+    margin: 50px;
+    position: relative;
+    left: 22%;
+}
+.titulo2{
+    text-align: center;
+    font-size: 60px;
+}
+.texto1{
+    position: absolute;
+    background: none;
+    width: 10rem;
+    left: 25%;
+}
+.texto2{
+    position: absolute;
+    background: none;
+    width: 10rem;
+    left: 45%;
+}
+.texto3{
+    position: absolute;
+    background: none;
+    width: 10rem;
+    left: 65%;
+}
+/* contac */
+.titulo3{
+    position: absolute;
+    color: aqua;
+    font-size: 72px;
+    background: none;
+    left: 40%;
+    top: 40vh;
+}
+.textoContact{
+    font-size: 18px;
+    width: 14rem;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+.contacto{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
+.contacto2{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
