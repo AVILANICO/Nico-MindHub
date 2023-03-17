@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+nav{
+    width: 100vw;
+    border-bottom: 3px double black;
+    margin-bottom: 20px;
+}
+nav img{
+    position: relative;
+    left: 84%;
+}
+nav a{
+    margin: 5px;
+}
+h1{
+    font-size: 48px;
+    width: 100vw;
+    text-align: center;
+}
+h3{
+    width: 100vw;
+    margin-top: 10px;
+    text-align: center;
+}
+.icono{
+    margin-top: 10px;
+    width: 24rem;
+    position: relative;
+    left: 38rem;
+}
+div p{
+    font-size: 20px;
+    width: 13vw;
+    position: relative;
+    top: 2rem;
+    left: 34.5rem;
+}
+.imagen{
+    width: 250px;
+    position: relative;
+    left: 48.7rem;
+    bottom: 8rem;
+}
+/* --------------- */
+/* about */
+.imagenes{
+    width: 100px;
+    margin: 30px;
+    position: relative;
+    bottom: 30.3rem;
+    left: 35%;
+}
+.texto{
+    display: block;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    position: relative;
+    left: 55%;
+    bottom: 12rem;
+    margin-top: 30px;
+}
+/* contact */
+#logo{
+    margin-top: 3rem;
+    position: relative;
+    width: 450px;
+    left: 36%;
+}
+.textoContact{
+    font-size: 20px;
+    width: 35vw;
+    position: relative;
+    left: 34rem;
+    margin-bottom: 20px;
+}
+.contacto{
+    width: 25vw;
+    display: inline-block;
+    position: relative;
+    left: 34%;
+}
