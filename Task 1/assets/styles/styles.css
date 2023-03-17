@@ -2,141 +2,249 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: bisque;
+    
+}
+body{
+    background-image: url(https://st2.depositphotos.com/1371678/6692/i/450/depositphotos_66920031-stock-photo-black-old-sports-weight.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button{
+    display: none;
 }
 nav{
-    border-bottom: 3px double black;
-    height: 6vh;
+    width: 70vw;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
 }
 nav a{
-    padding: 5px;
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(255, 230, 0);
+    border-radius: 10px;
+    background-color: rgb(55, 116, 206);
+    display: flex;
+    align-items: center;
+    height: 50px;
 }
-#logo{
+nav a:hover{
+    color: rgb(255, 230, 0);
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+.loguito{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.logo{
     position: absolute;
-    left: 92%;
+    width: 7vw;
+    height: 8vh;
 }
 header{
-    height: 60vh;
-    position: relative;
-}
-main{
-    height: 34vh;
-    position: relative;
+    /* border: 1px solid white; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .titulo{
     font-size: 60px;
-    position: absolute;
-    top: 0%;
-    left: 38%;
-    background: none;
-    color: black;
+    color: white;
 }
 .subtitulo{
-    font-size: 36px;
-    position: absolute;
-    top: 15%;
-    left: 39%;
-    background: none;
-    color: black
+    font-size: 48px;
+    color: white;
 }
-#tit{
-    font-size: 60px;
-    position: absolute;
-    top: 0%;
-    left: 38%;
-    background: none;
-    color: black;
+main{
+    /* border: 1px solid white; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.icono{
-    position: absolute;
-    width: 500px;
-    top: 7rem;
-    left: 35%;
-}
-#boton{
-    text-decoration: none;
-    background: none;
-    color: rgba(255, 255, 255, 0);
-}
-.imagenIndex{
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    top: 10%;
-    left: 50%;
+.imgPrueba{
+    width: 600px;
+    height: 400px;
 }
 #textoIndex{
-    width: 15.5rem;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 30%;
-    top: 25%;
-}
+    font-size: 28px;
+    color: white;
+    width: 350px;
+    text-align: center;
+}   
 /* about */
 
-#img1{
-    position: absolute;
-    left: 25%;
-    top: 20%;
+#titAbout{
+    font-size: 60px;
+    color: white;
 }
-#img2{
-    position: absolute;
-    left: 25%;
-    top: 60%;
+.headerAbout{
+    height: 10vh;
 }
-#img3{
-    position: absolute;
-    left: 25%;
-    top: 100%;
+.mainAbout{
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+}
+.divImagenesAbout{
+    order: 1;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.divTextAbout{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    height: 80vh;
+    width: 40vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgAbout{
+    width: 250px;
 }
 .texto1{
-    background: none;
-    position: absolute;
-    width: 10rem;
-    left: 50%;
-    top: 22%;
+    font-size: 20px;
+    color: white;
 }
 .texto2{
-    background: none;
-    position: absolute;
-    width: 10rem;
-    left: 50%;
-    top: 61%;
+    font-size: 20px;
+    color: white;
 }
 .texto3{
-    background: none;
-    position: absolute;
-    width: 10rem;
-    left: 50%;
-    top: 101%;
-}
-/* contact */
-#tit3{
-    font-size: 60px;
-    position: absolute;
-    top: 0%;
-    left: 40%;
-    background: none;
-    color: black;
-}
-.textoContact{
     font-size: 20px;
-    background: none;
-    position: absolute;
-    width: 35rem;
-    left: 35%;
-    top: 5%;
+    color: white;
 }
-.contacto{
-    background: none;
-    position: absolute;
-    left: 35%;
-    top: 25%;
+
+/* contact */
+
+#titContact{
+    font-size: 60px;
+    color: white;
+}
+.headerContact{
+    height: 10vh;
+}
+.mainContact{
+    height: 80vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imgContact{
+    width: 500px;
+    height: 400px;
+}
+#divTextoContact{
+    font-size: 20px;
+    color: white;
+    width: 500px;
+}
+#divContacto{
+    color: white;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#mail{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#mail:hover{
+    color: rgb(0, 255, 13);
 }
 .contacto2{
-    background: none;
-    position: absolute;
-    left: 60%;
-    top: 25%;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contacto2:hover{
+    color: rgb(0, 255, 13);
+}
+
+/* schedule */
+
+.headerSchedule{
+    height: 18vh;
+}
+.mainSchedule{
+    height: 72vh;
+}
+table{
+    font-size: 20px;
+    width: 45vw;
+    height: 72vh;
+    border: 1px solid white;
+}
+td{
+    border: 1px solid rgb(255, 255, 255);
+    color: yellow;
+    text-align: center;
+    font-size: 24px;
+    width: 300px;
+    height: 100px;
+}
+th{
+    border: 3px solid white;
+    color: yellow;
+    text-decoration: underline;
+    font-size: 28px;
+    width: 300px;
+    height: 100px;
+}
+
+/* Benefits */
+.headerBenefits{
+    height: 15vh;
+}
+.mainBenefits{
+    height: 77vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+.divImgBenefits{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.divListaBenefits{
+    font-size: 20px;
+    width: 25vw;
+    height: 76vh;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgBenefits{
+    width: 300px;
+    height: 200px;
+    gap: 20px;
+}
+.listUl{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+#salto::after{
+    content: '\A'; 
+    white-space: pre;
 }
